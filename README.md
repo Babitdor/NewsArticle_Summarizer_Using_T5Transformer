@@ -11,9 +11,6 @@ News_SummarizerT5Transformer is a text summarization tool designed to distill th
 - Evaluates model performance using ROUGE metrics.
 - Adjustable parameters for text summarization length and detail.
 
-## Installation
-To get started, clone this repository and install the required dependencies:
-
 ![Screenshot 2024-11-15 135646](https://github.com/user-attachments/assets/0ab21306-bc2e-4eba-96d8-4202c73f9c14)
 
 
