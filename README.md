@@ -1,4 +1,4 @@
-# News_SummarizerT5Transformer
+# News Summarizer Using T5 - Transformer
 
 A deep learning model based on the T5 Transformer for generating concise and relevant summaries of news articles. This project uses transfer learning with the Hugging Face Transformers library, leveraging the T5 model fine-tuned on a news dataset to achieve high-quality text summarization.
 
