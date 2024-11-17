@@ -1,0 +1,11 @@
+transformers
+datasets
+tensorboard
+sentencepiece
+accelerate
+evaluate
+rouge_score
+gradio
+pandas
+numpy
+nltk
