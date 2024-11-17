@@ -27,7 +27,7 @@ Step	Training Loss	  Validation Loss	    Rouge1	  Rouge2	  Rougel	  Gen Len
 1000	0.249100	      0.209719	          0.631300	0.372700	0.592800	73.473000
 
 ## NOTE: 
-The model can still perform much better with more data, the model in it's current state has been fine-tunning with a subset size of 4000, due to ### hardware limitations
+The model can still perform much better with more data, the model in it's current state has been fine-tunning with a subset size of 4000, due to <b>hardware limitations</b>
 
 ```bash
 git clone https://github.com/yourusername/News_SummarizerT5Transformer.git
