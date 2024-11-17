@@ -12,6 +12,13 @@ Loss function: Cross-entropy loss
 Optimizer: Adam optimizer with learning rate decay
 Evaluation metrics: ROUGE-1, ROUGE-2, ROUGE-L
 
+## Dataset
+
+The model is fine-tuned using the **CNN/Daily Mail dataset**, which contains over 300,000 news articles with human-written summaries. The dataset is split into training, validation, and test sets, making it a standard benchmark for news summarization tasks.
+
+- **CNN/Daily Mail**: This dataset contains articles from CNN and the Daily Mail, and each article has an associated summary. The summaries are highly abstractive, making it a challenging dataset for the summarization task.
+- **Preprocessing**: The articles are tokenized, and both the articles and summaries are processed to be compatible with the T5 input/output format.
+
 ## Features
 - Summarizes long news articles into concise, readable summaries.
 - Fine-tuned on a news-specific dataset for better contextual understanding.
