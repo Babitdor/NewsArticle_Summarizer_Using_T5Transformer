@@ -11,7 +11,7 @@ Used a Pre-trained T5-base transformer, and fine-tuned using CNN/Daily-News data
 - Summarizes long news articles into concise, readable summaries.
 - Fine-tuned on a news-specific dataset for better contextual understanding.
 - Evaluates model performance using ROUGE metrics.
-- Adjustable parameters for text summarization length and detail.
+- Adjustable parameters like max_length and beam search size for text summarization length and detail.
 
 ![Screenshot 2024-11-15 135646](https://github.com/user-attachments/assets/0ab21306-bc2e-4eba-96d8-4202c73f9c14)
 
