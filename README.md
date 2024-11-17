@@ -50,8 +50,7 @@ The model can still perform much better with more data, the model in it's curren
 2. Create a Virtual Environment: 
    ```bash
    python -m venv .env
-   then Run: .env/Scripts/Activate
-
+   .env/Scripts/Activate  #to start virtual environment
 
 3. Install the required dependencies:
    ```bash
