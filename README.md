@@ -40,7 +40,7 @@ The model can still perform much better with more data, the model in it's curren
    git clone https://github.com/yourusername/News-Article-Summarization.git
    cd News-Article-Summarization
 
-2. Create a Virtual Environment: \n
+2. Create a Virtual Environment: 
    python -m venv .env
    then Run: .env/Scripts/Activate
 
