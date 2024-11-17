@@ -41,13 +41,10 @@ The model can still perform much better with more data, the model in it's curren
    cd News-Article-Summarization
 
 2.Create a Virtual Environment:
-   ```bash
    python -m venv .env
    then Run: .env/Scripts/Activate
 
 
-
-
-
-
-
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
