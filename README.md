@@ -19,14 +19,6 @@ The model is fine-tuned using the **CNN/Daily Mail dataset**, which contains ove
 - **CNN/Daily Mail**: This dataset contains articles from CNN and the Daily Mail, and each article has an associated summary. The summaries are highly abstractive, making it a challenging dataset for the summarization task.
 - **Preprocessing**: The articles are tokenized, and both the articles and summaries are processed to be compatible with the T5 input/output format.
 
-## Features
-- Summarizes long news articles into concise, readable summaries.
-- Fine-tuned on a news-specific dataset for better contextual understanding.
-- Evaluates model performance using ROUGE metrics.
-- Adjustable parameters like max_length and beam search size for text summarization length and detail.
-
-![Screenshot 2024-11-15 135646](https://github.com/user-attachments/assets/0ab21306-bc2e-4eba-96d8-4202c73f9c14)
-
 ## Model
 
 The **T5 (Text-to-Text Transfer Transformer)** model, pretrained on a large corpus of text data, is used for generating summaries. It uses the same architecture for all text tasks, such as translation, summarization, and question answering, by framing all tasks as text-to-text transformations.
@@ -43,6 +35,13 @@ Tokenization using the T5 tokenizer.
 Training using the fine-tuning dataset and validation split.
 Evaluation using the ROUGE score metrics to evaluate the summary generation quality.
 
+## Features
+- Summarizes long news articles into concise, readable summaries.
+- Fine-tuned on a news-specific dataset for better contextual understanding.
+- Evaluates model performance using ROUGE metrics.
+- Adjustable parameters like max_length and beam search size for text summarization length and detail.
+
+![Screenshot 2024-11-15 135646](https://github.com/user-attachments/assets/0ab21306-bc2e-4eba-96d8-4202c73f9c14)
 
 
 ## NOTE: 
