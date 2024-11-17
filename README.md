@@ -19,8 +19,8 @@ Used a Pre-trained T5-base transformer, and fine-tuned using CNN/Daily-News data
 
 The current state the model has some decent performance as per the score below, 
 
-Step	Training Loss	  Validation Loss	    Rouge1	  Rouge2	  Rougel	  Gen Len
-200	  No log	        0.214724	          0.625500	0.364300	0.586500	73.466000
+Step	| Training Loss	 | Validation Loss	| Rouge1	   | Rouge2	  | Rougel	 | Gen Len
+200	  No log	        0.214724	          | 0.625500	 | 0.364300 |	0.586500	73.466000
 400	  No log	        0.217768	          0.620300	0.360400	0.580300	73.472000
 600	  1.053100	      0.213199	          0.625600	0.366000	0.586200	73.468000
 800	  1.053100	      0.211047	          0.629800	0.369000	0.590200	73.473000
