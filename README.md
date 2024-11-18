@@ -8,9 +8,12 @@ News_SummarizerT5Transformer is a text summarization tool designed to distill th
 ## Training
 The model is trained for abstractive summarization by fine-tuning T5 on the CNN/Daily Mail dataset. The fine-tuning is performed using the following settings
 
-Loss function: Cross-entropy loss
-Optimizer: Adam optimizer with learning rate decay
-Evaluation metrics: ROUGE-1, ROUGE-2, ROUGE-L
+### Loss function: 
+      Cross-entropy loss
+### Optimizer: 
+      Adam optimizer with learning rate decay
+### Evaluation metrics: 
+      ROUGE-1, ROUGE-2, ROUGE-L
 
 ## Dataset
 
