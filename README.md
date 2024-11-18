@@ -6,7 +6,7 @@ A deep learning model based on the T5 Transformer for generating concise and rel
 News_SummarizerT5Transformer is a text summarization tool designed to distill the essential information from lengthy news articles into concise summaries. This project employs the T5 Transformer model, a popular sequence-to-sequence architecture, to generate summaries that retain the key points and overall context of the original articles.
 
 ## Training
-The model is trained for abstractive summarization by fine-tuning T5 on the CNN/Daily Mail dataset. The fine-tuning is performed using the following settings:
+The model is trained for abstractive summarization by fine-tuning T5 on the CNN/Daily Mail dataset. The fine-tuning is performed using the following settings
 
 Loss function: Cross-entropy loss
 Optimizer: Adam optimizer with learning rate decay
